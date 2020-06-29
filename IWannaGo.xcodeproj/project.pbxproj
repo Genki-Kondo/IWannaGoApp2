@@ -3,27 +3,101 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C1EEC52A27542AB01A63FAD /* Pods_IWannaGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3ABD9B7A5CE8D757C0BB91 /* Pods_IWannaGo.framework */; };
+		7B17D9E1247BDB31006BB7E7 /* iPhoneXS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B17D9E0247BDB31006BB7E7 /* iPhoneXS.storyboard */; };
+		7B17D9E3247BDBBC006BB7E7 /* iPadPro10.5iPadAir.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B17D9E2247BDBBC006BB7E7 /* iPadPro10.5iPadAir.storyboard */; };
+		7B2F010E2499005800E9849B /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2F010D2499005800E9849B /* StartViewController.swift */; };
+		7B307CF8246FE65B00378060 /* ShopTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B307CF7246FE65B00378060 /* ShopTableViewController.swift */; };
+		7B307CFB246FE92F00378060 /* CustumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B307CF9246FE92F00378060 /* CustumTableViewCell.swift */; };
+		7B307CFC246FE92F00378060 /* CustumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B307CFA246FE92F00378060 /* CustumTableViewCell.xib */; };
+		7B307CFE246FFBA100378060 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B307CFD246FFBA100378060 /* Info.swift */; };
 		7B3140A12461385500040B78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3140A02461385500040B78 /* AppDelegate.swift */; };
 		7B3140A32461385500040B78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3140A22461385500040B78 /* SceneDelegate.swift */; };
-		7B3140A52461385500040B78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3140A42461385500040B78 /* ViewController.swift */; };
 		7B3140A82461385500040B78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B3140A62461385500040B78 /* Main.storyboard */; };
 		7B3140AA2461385700040B78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B3140A92461385700040B78 /* Assets.xcassets */; };
 		7B3140AD2461385700040B78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B3140AB2461385700040B78 /* LaunchScreen.storyboard */; };
+		7B325931249C56C80058357F /* スタート音.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B325930249C56C80058357F /* スタート音.mp3 */; };
+		7B3386BF2463E190008A7DF2 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3386BE2463E190008A7DF2 /* ShoppingViewController.swift */; };
+		7B3386C124643E5B008A7DF2 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3386C024643E5B008A7DF2 /* FoodViewController.swift */; };
+		7B34BBE3246D2FC000AD8ACC /* FoodList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B34BBE2246D2FC000AD8ACC /* FoodList.swift */; };
+		7B34BBE5246D2FD100AD8ACC /* ShoppingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B34BBE4246D2FD100AD8ACC /* ShoppingList.swift */; };
+		7B34BBE7246D80EB00AD8ACC /* RandomFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B34BBE6246D80EB00AD8ACC /* RandomFoodViewController.swift */; };
+		7B34D6722474195C00C50CA8 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B34D6712474195C00C50CA8 /* Music.swift */; };
+		7B36805324741D09000F8D54 /* ショッピングタップ音.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B36805224741D09000F8D54 /* ショッピングタップ音.mp3 */; };
+		7B36805524741DC8000F8D54 /* フードタップ音.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B36805424741DC8000F8D54 /* フードタップ音.mp3 */; };
+		7B368057247421BC000F8D54 /* FoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B368056247421BC000F8D54 /* FoodTableViewController.swift */; };
+		7B38F481246594DF002DFCF8 /* RandomShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B38F480246594DF002DFCF8 /* RandomShopViewController.swift */; };
+		7B410E592479469F009F52E1 /* LikedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B410E582479469F009F52E1 /* LikedViewController.swift */; };
+		7B42CA20247BC3BD00C1CB7B /* iPhone8plus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B42CA1F247BC3BD00C1CB7B /* iPhone8plus.storyboard */; };
+		7B42CA24247BD7CD00C1CB7B /* iPhoneXSMAX.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B42CA23247BD7CD00C1CB7B /* iPhoneXSMAX.storyboard */; };
+		7B7BC132249B1BEE0080E89C /* mapAnim.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B7BC131249B1BED0080E89C /* mapAnim.json */; };
+		7BAA21832484B58A008EDEC0 /* LeisureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA21822484B58A008EDEC0 /* LeisureViewController.swift */; };
+		7BAA21852484B6F3008EDEC0 /* LifeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA21842484B6F3008EDEC0 /* LifeViewController.swift */; };
+		7BAA21872484B75B008EDEC0 /* InputLeisureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA21862484B75B008EDEC0 /* InputLeisureViewController.swift */; };
+		7BAA21892484B777008EDEC0 /* InputLifeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA21882484B777008EDEC0 /* InputLifeViewController.swift */; };
+		7BAA218B2484B7FD008EDEC0 /* RandomLeisureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA218A2484B7FD008EDEC0 /* RandomLeisureViewController.swift */; };
+		7BAA218D2484B814008EDEC0 /* RandomLifeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA218C2484B814008EDEC0 /* RandomLifeViewController.swift */; };
+		7BAA218F2484B86E008EDEC0 /* LeisureTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA218E2484B86E008EDEC0 /* LeisureTableViewController.swift */; };
+		7BAA21912484B889008EDEC0 /* LifeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA21902484B889008EDEC0 /* LifeTableViewController.swift */; };
+		7BAA21932484D21F008EDEC0 /* LeisureList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA21922484D21F008EDEC0 /* LeisureList.swift */; };
+		7BAA21952484D286008EDEC0 /* LifeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA21942484D286008EDEC0 /* LifeList.swift */; };
+		7BB8D5E72469238B004C4F7C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7BB8D5E62469238B004C4F7C /* GoogleService-Info.plist */; };
+		7BB8D9F12469524B004C4F7C /* InputShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB8D9F02469524B004C4F7C /* InputShoppingViewController.swift */; };
+		7BB8D9F32469525D004C4F7C /* InputFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB8D9F22469525D004C4F7C /* InputFoodViewController.swift */; };
+		7BB8D9F524695F7E004C4F7C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB8D9F424695F7E004C4F7C /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B27036431917E4BE4DF851E /* Pods-IWannaGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IWannaGo.debug.xcconfig"; path = "Target Support Files/Pods-IWannaGo/Pods-IWannaGo.debug.xcconfig"; sourceTree = "<group>"; };
+		7B17D9E0247BDB31006BB7E7 /* iPhoneXS.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhoneXS.storyboard; sourceTree = "<group>"; };
+		7B17D9E2247BDBBC006BB7E7 /* iPadPro10.5iPadAir.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPadPro10.5iPadAir.storyboard; sourceTree = "<group>"; };
+		7B2F010D2499005800E9849B /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		7B307CF7246FE65B00378060 /* ShopTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopTableViewController.swift; sourceTree = "<group>"; };
+		7B307CF9246FE92F00378060 /* CustumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustumTableViewCell.swift; sourceTree = "<group>"; };
+		7B307CFA246FE92F00378060 /* CustumTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustumTableViewCell.xib; sourceTree = "<group>"; };
+		7B307CFD246FFBA100378060 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
 		7B31409D2461385500040B78 /* IWannaGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IWannaGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B3140A02461385500040B78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B3140A22461385500040B78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7B3140A42461385500040B78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7B3140A72461385500040B78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B3140A92461385700040B78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B3140AC2461385700040B78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B3140AE2461385700040B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B325930249C56C80058357F /* スタート音.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "スタート音.mp3"; sourceTree = "<group>"; };
+		7B3386BE2463E190008A7DF2 /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
+		7B3386C024643E5B008A7DF2 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		7B34BBE2246D2FC000AD8ACC /* FoodList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodList.swift; sourceTree = "<group>"; };
+		7B34BBE4246D2FD100AD8ACC /* ShoppingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingList.swift; sourceTree = "<group>"; };
+		7B34BBE6246D80EB00AD8ACC /* RandomFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomFoodViewController.swift; sourceTree = "<group>"; };
+		7B34D6712474195C00C50CA8 /* Music.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		7B36805224741D09000F8D54 /* ショッピングタップ音.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ショッピングタップ音.mp3"; sourceTree = "<group>"; };
+		7B36805424741DC8000F8D54 /* フードタップ音.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "フードタップ音.mp3"; sourceTree = "<group>"; };
+		7B368056247421BC000F8D54 /* FoodTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewController.swift; sourceTree = "<group>"; };
+		7B38F480246594DF002DFCF8 /* RandomShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomShopViewController.swift; sourceTree = "<group>"; };
+		7B410E582479469F009F52E1 /* LikedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedViewController.swift; sourceTree = "<group>"; };
+		7B42CA1F247BC3BD00C1CB7B /* iPhone8plus.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhone8plus.storyboard; sourceTree = "<group>"; };
+		7B42CA23247BD7CD00C1CB7B /* iPhoneXSMAX.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhoneXSMAX.storyboard; sourceTree = "<group>"; };
+		7B7BC131249B1BED0080E89C /* mapAnim.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mapAnim.json; sourceTree = "<group>"; };
+		7BAA21822484B58A008EDEC0 /* LeisureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeisureViewController.swift; sourceTree = "<group>"; };
+		7BAA21842484B6F3008EDEC0 /* LifeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeViewController.swift; sourceTree = "<group>"; };
+		7BAA21862484B75B008EDEC0 /* InputLeisureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputLeisureViewController.swift; sourceTree = "<group>"; };
+		7BAA21882484B777008EDEC0 /* InputLifeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputLifeViewController.swift; sourceTree = "<group>"; };
+		7BAA218A2484B7FD008EDEC0 /* RandomLeisureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomLeisureViewController.swift; sourceTree = "<group>"; };
+		7BAA218C2484B814008EDEC0 /* RandomLifeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomLifeViewController.swift; sourceTree = "<group>"; };
+		7BAA218E2484B86E008EDEC0 /* LeisureTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeisureTableViewController.swift; sourceTree = "<group>"; };
+		7BAA21902484B889008EDEC0 /* LifeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeTableViewController.swift; sourceTree = "<group>"; };
+		7BAA21922484D21F008EDEC0 /* LeisureList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeisureList.swift; sourceTree = "<group>"; };
+		7BAA21942484D286008EDEC0 /* LifeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeList.swift; sourceTree = "<group>"; };
+		7BB8D5E62469238B004C4F7C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7BB8D9F02469524B004C4F7C /* InputShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputShoppingViewController.swift; sourceTree = "<group>"; };
+		7BB8D9F22469525D004C4F7C /* InputFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFoodViewController.swift; sourceTree = "<group>"; };
+		7BB8D9F424695F7E004C4F7C /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		A373ABD2DC98D7EFC11120BA /* Pods-IWannaGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IWannaGo.release.xcconfig"; path = "Target Support Files/Pods-IWannaGo/Pods-IWannaGo.release.xcconfig"; sourceTree = "<group>"; };
+		AA3ABD9B7A5CE8D757C0BB91 /* Pods_IWannaGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IWannaGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +105,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C1EEC52A27542AB01A63FAD /* Pods_IWannaGo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6FCDFC3AEB07FD1876BC41B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA3ABD9B7A5CE8D757C0BB91 /* Pods_IWannaGo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7B3140942461385500040B78 = {
 			isa = PBXGroup;
 			children = (
 				7B31409F2461385500040B78 /* IWannaGo */,
 				7B31409E2461385500040B78 /* Products */,
+				9969C5E7B4652DD49532B1E8 /* Pods */,
+				6FCDFC3AEB07FD1876BC41B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +141,83 @@
 		7B31409F2461385500040B78 /* IWannaGo */ = {
 			isa = PBXGroup;
 			children = (
-				7B3140A02461385500040B78 /* AppDelegate.swift */,
-				7B3140A22461385500040B78 /* SceneDelegate.swift */,
-				7B3140A42461385500040B78 /* ViewController.swift */,
-				7B3140A62461385500040B78 /* Main.storyboard */,
-				7B3140A92461385700040B78 /* Assets.xcassets */,
-				7B3140AB2461385700040B78 /* LaunchScreen.storyboard */,
+				7B36805224741D09000F8D54 /* ショッピングタップ音.mp3 */,
+				7B36805424741DC8000F8D54 /* フードタップ音.mp3 */,
+				7B325930249C56C80058357F /* スタート音.mp3 */,
+				7BB8D5E62469238B004C4F7C /* GoogleService-Info.plist */,
 				7B3140AE2461385700040B78 /* Info.plist */,
+				7B7BC131249B1BED0080E89C /* mapAnim.json */,
+				7B3140B6246140DD00040B78 /* Model */,
+				7B3140B5246140D500040B78 /* View */,
+				7B3140B4246140C400040B78 /* Controller */,
 			);
 			path = IWannaGo;
+			sourceTree = "<group>";
+		};
+		7B3140B4246140C400040B78 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7B3140A22461385500040B78 /* SceneDelegate.swift */,
+				7B3140A02461385500040B78 /* AppDelegate.swift */,
+				7B2F010D2499005800E9849B /* StartViewController.swift */,
+				7BB8D9F424695F7E004C4F7C /* MenuViewController.swift */,
+				7B3386BE2463E190008A7DF2 /* ShoppingViewController.swift */,
+				7B3386C024643E5B008A7DF2 /* FoodViewController.swift */,
+				7BAA21822484B58A008EDEC0 /* LeisureViewController.swift */,
+				7BAA21842484B6F3008EDEC0 /* LifeViewController.swift */,
+				7BB8D9F02469524B004C4F7C /* InputShoppingViewController.swift */,
+				7BB8D9F22469525D004C4F7C /* InputFoodViewController.swift */,
+				7BAA21862484B75B008EDEC0 /* InputLeisureViewController.swift */,
+				7BAA21882484B777008EDEC0 /* InputLifeViewController.swift */,
+				7B38F480246594DF002DFCF8 /* RandomShopViewController.swift */,
+				7B34BBE6246D80EB00AD8ACC /* RandomFoodViewController.swift */,
+				7BAA218A2484B7FD008EDEC0 /* RandomLeisureViewController.swift */,
+				7BAA218C2484B814008EDEC0 /* RandomLifeViewController.swift */,
+				7B307CF7246FE65B00378060 /* ShopTableViewController.swift */,
+				7B368056247421BC000F8D54 /* FoodTableViewController.swift */,
+				7BAA218E2484B86E008EDEC0 /* LeisureTableViewController.swift */,
+				7BAA21902484B889008EDEC0 /* LifeTableViewController.swift */,
+				7B410E582479469F009F52E1 /* LikedViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7B3140B5246140D500040B78 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7B3140AB2461385700040B78 /* LaunchScreen.storyboard */,
+				7B3140A92461385700040B78 /* Assets.xcassets */,
+				7B3140A62461385500040B78 /* Main.storyboard */,
+				7B42CA1F247BC3BD00C1CB7B /* iPhone8plus.storyboard */,
+				7B42CA23247BD7CD00C1CB7B /* iPhoneXSMAX.storyboard */,
+				7B17D9E0247BDB31006BB7E7 /* iPhoneXS.storyboard */,
+				7B17D9E2247BDBBC006BB7E7 /* iPadPro10.5iPadAir.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7B3140B6246140DD00040B78 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B34BBE4246D2FD100AD8ACC /* ShoppingList.swift */,
+				7B34BBE2246D2FC000AD8ACC /* FoodList.swift */,
+				7BAA21922484D21F008EDEC0 /* LeisureList.swift */,
+				7BAA21942484D286008EDEC0 /* LifeList.swift */,
+				7B307CF9246FE92F00378060 /* CustumTableViewCell.swift */,
+				7B307CFA246FE92F00378060 /* CustumTableViewCell.xib */,
+				7B34D6712474195C00C50CA8 /* Music.swift */,
+				7B307CFD246FFBA100378060 /* Info.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9969C5E7B4652DD49532B1E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B27036431917E4BE4DF851E /* Pods-IWannaGo.debug.xcconfig */,
+				A373ABD2DC98D7EFC11120BA /* Pods-IWannaGo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B3140B12461385700040B78 /* Build configuration list for PBXNativeTarget "IWannaGo" */;
 			buildPhases = (
+				7B86AD8243044DD30C742BDF /* [CP] Check Pods Manifest.lock */,
 				7B3140992461385500040B78 /* Sources */,
 				7B31409A2461385500040B78 /* Frameworks */,
 				7B31409B2461385500040B78 /* Resources */,
+				7083E5686353AC8DE7B70CA1 /* [CP] Copy Pods Resources */,
+				25E58222053D0124139C75D7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -93,6 +249,7 @@
 		7B3140952461385500040B78 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = "";
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = genkikondo;
@@ -125,7 +282,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B307CFC246FE92F00378060 /* CustumTableViewCell.xib in Resources */,
+				7B36805324741D09000F8D54 /* ショッピングタップ音.mp3 in Resources */,
+				7B17D9E3247BDBBC006BB7E7 /* iPadPro10.5iPadAir.storyboard in Resources */,
+				7B17D9E1247BDB31006BB7E7 /* iPhoneXS.storyboard in Resources */,
+				7B42CA24247BD7CD00C1CB7B /* iPhoneXSMAX.storyboard in Resources */,
+				7B7BC132249B1BEE0080E89C /* mapAnim.json in Resources */,
+				7B36805524741DC8000F8D54 /* フードタップ音.mp3 in Resources */,
+				7B325931249C56C80058357F /* スタート音.mp3 in Resources */,
+				7B42CA20247BC3BD00C1CB7B /* iPhone8plus.storyboard in Resources */,
 				7B3140AD2461385700040B78 /* LaunchScreen.storyboard in Resources */,
+				7BB8D5E72469238B004C4F7C /* GoogleService-Info.plist in Resources */,
 				7B3140AA2461385700040B78 /* Assets.xcassets in Resources */,
 				7B3140A82461385500040B78 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +300,98 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		25E58222053D0124139C75D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IWannaGo/Pods-IWannaGo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IWannaGo/Pods-IWannaGo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IWannaGo/Pods-IWannaGo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7083E5686353AC8DE7B70CA1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IWannaGo/Pods-IWannaGo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IWannaGo/Pods-IWannaGo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IWannaGo/Pods-IWannaGo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B86AD8243044DD30C742BDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IWannaGo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7B3140992461385500040B78 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B3140A52461385500040B78 /* ViewController.swift in Sources */,
+				7B307CF8246FE65B00378060 /* ShopTableViewController.swift in Sources */,
+				7B2F010E2499005800E9849B /* StartViewController.swift in Sources */,
+				7B368057247421BC000F8D54 /* FoodTableViewController.swift in Sources */,
+				7BB8D9F32469525D004C4F7C /* InputFoodViewController.swift in Sources */,
+				7BAA218B2484B7FD008EDEC0 /* RandomLeisureViewController.swift in Sources */,
+				7B307CFB246FE92F00378060 /* CustumTableViewCell.swift in Sources */,
+				7BAA21852484B6F3008EDEC0 /* LifeViewController.swift in Sources */,
+				7B307CFE246FFBA100378060 /* Info.swift in Sources */,
+				7B34BBE5246D2FD100AD8ACC /* ShoppingList.swift in Sources */,
+				7BB8D9F524695F7E004C4F7C /* MenuViewController.swift in Sources */,
+				7BB8D9F12469524B004C4F7C /* InputShoppingViewController.swift in Sources */,
+				7BAA21832484B58A008EDEC0 /* LeisureViewController.swift in Sources */,
+				7BAA21912484B889008EDEC0 /* LifeTableViewController.swift in Sources */,
+				7BAA21872484B75B008EDEC0 /* InputLeisureViewController.swift in Sources */,
+				7B3386C124643E5B008A7DF2 /* FoodViewController.swift in Sources */,
+				7B34D6722474195C00C50CA8 /* Music.swift in Sources */,
+				7BAA21952484D286008EDEC0 /* LifeList.swift in Sources */,
+				7BAA218F2484B86E008EDEC0 /* LeisureTableViewController.swift in Sources */,
+				7B34BBE7246D80EB00AD8ACC /* RandomFoodViewController.swift in Sources */,
+				7B3386BF2463E190008A7DF2 /* ShoppingViewController.swift in Sources */,
+				7B34BBE3246D2FC000AD8ACC /* FoodList.swift in Sources */,
+				7B38F481246594DF002DFCF8 /* RandomShopViewController.swift in Sources */,
 				7B3140A12461385500040B78 /* AppDelegate.swift in Sources */,
+				7BAA21932484D21F008EDEC0 /* LeisureList.swift in Sources */,
 				7B3140A32461385500040B78 /* SceneDelegate.swift in Sources */,
+				7BAA218D2484B814008EDEC0 /* RandomLifeViewController.swift in Sources */,
+				7B410E592479469F009F52E1 /* LikedViewController.swift in Sources */,
+				7BAA21892484B777008EDEC0 /* InputLifeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,37 +533,47 @@
 		};
 		7B3140B22461385700040B78 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B27036431917E4BE4DF851E /* Pods-IWannaGo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.6;
 				DEVELOPMENT_TEAM = 3JZRVMTX25;
 				INFOPLIST_FILE = IWannaGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.5;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.genki.IWannaGo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7B3140B32461385700040B78 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A373ABD2DC98D7EFC11120BA /* Pods-IWannaGo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.6;
 				DEVELOPMENT_TEAM = 3JZRVMTX25;
 				INFOPLIST_FILE = IWannaGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.5;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.genki.IWannaGo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
